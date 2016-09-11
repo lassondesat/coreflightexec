@@ -24,6 +24,5 @@
 
 # Define large file storage (LFS) support
 cfe/test-and-ground/test-review-packages/Results/LogFiles.zip filter=lfs diff=lfs merge=lfs -text
-cfe/test-and-ground/test-review-packages/Results/cFE6.4.2.0-LogFiles.zip filter=lfs diff=lfs merge=lfs -text
-cfe/tools/perfutils-java/CPM.jar filter=lfs diff=lfs merge=lfs -text
-cfe/tools/perfutils-win/Software[[:space:]]Timing[[:space:]]Analyzer.msi filter=lfs diff=lfs merge=lfs -text
+tools/perfutils-java/CPM.jar filter=lfs diff=lfs merge=lfs -text
+tools/perfutils-win/Software[[:space:]]Timing[[:space:]]Analyzer.msi filter=lfs diff=lfs merge=lfs -text

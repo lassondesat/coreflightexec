@@ -365,7 +365,7 @@ typedef struct {
 
 /* Increment sequence count in primary header by 1. */
 #define CCSDS_INC_SEQ(phdr) \
-   CCSDS_WR_SEQ(phdr, CCSDS_RD_SEQ(phdr)+1)
+   CCSDS_WR_SEQ(phdr, (CCSDS_RD_SEQ(phdr)+1))
 
 
 /*********************************************************************/

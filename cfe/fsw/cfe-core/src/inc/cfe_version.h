@@ -56,13 +56,27 @@
 #ifndef _cfe_es_version_
 #define _cfe_es_version_
 
+/*
+ * The "enhanced build" (cmake-driven) instantiates a configuration
+ * object that contains extended version information within it.
+ *
+ * This information is generated automatically by the build using
+ * git to determine the most recent tag and commitid.
+ *
+ * This is only available when compiling with the cmake scripts which
+ * is why it is conditionally included.
+ */
+#ifdef _ENHANCED_BUILD_
+#include <target_config.h>
+#endif
+
 
 /*
 ** Macro Definitions
 */
 #define CFE_MAJOR_VERSION         6
-#define CFE_MINOR_VERSION         4
-#define CFE_REVISION              2
+#define CFE_MINOR_VERSION         5
+#define CFE_REVISION              0
 
 
 #endif  /* _cfe_es_version_ */
