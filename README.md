@@ -1,5 +1,7 @@
 # NASA Core Flight Executive (cFE)
 
+[![GitHub release](https://img.shields.io/github/release/yusend/coreflightexec.svg)](https://github.com/yusend/coreflightexec/releases)
+
 ## Description
 
 "The Core Flight Executive is a portable, platform independent embedded
@@ -30,13 +32,13 @@ Additional documentation can be found in:
 
   Make sure that the setup has completed successfully, by checking that the
   `osal` directory is non-empty (contains files and folders). Also check that
-  the files listed in `.gitattributes` at the end file under the "Define large 
-  file storage (LFS) support" are present in their entirety (not text file 
+  the files listed in `.gitattributes` at the end file under the "Define large
+  file storage (LFS) support" are present in their entirety (not text file
   placeholders).
 
 ## Sources
 * http://opensource.gsfc.nasa.gov/projects/cfe/index.php
-* http://sourceforge.net/projects/coreflightexec/ (cFE-6.4.2c-OSS-release.tar.gz)
+* http://sourceforge.net/projects/coreflightexec/ (cFE-6.5.0a-OSS-release.tar.gz)
 
 ## Dependecies
 * https://github.com/nasa/osal
