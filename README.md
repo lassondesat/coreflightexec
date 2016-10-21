@@ -1,6 +1,6 @@
 # NASA Core Flight Executive (cFE)
 
-[![GitHub release](https://img.shields.io/github/release/yusend/coreflightexec.svg)](https://github.com/yusend/coreflightexec/releases)
+[![GitHub release](https://img.shields.io/github/release/lassondesat/coreflightexec.svg)](https://github.com/lassondesat/coreflightexec/releases)
 
 ## Description
 
@@ -24,7 +24,7 @@ Additional documentation can be found in:
 2. Clone this project:
 
    ```bash
-   git clone --recursive https://github.com/yusend/coreflightexec.git
+   git clone --recursive https://github.com/lassondesat/coreflightexec.git
    cd coreflightexec
    git lfs install
    git lfs pull
@@ -41,7 +41,7 @@ Additional documentation can be found in:
 * http://sourceforge.net/projects/coreflightexec/ (cFE-6.5.0a-OSS-release.tar.gz)
 
 ## Dependecies
-* https://github.com/nasa/osal
+* https://github.com/lassondesat/osal (included as submodule)
 
 ## License
 * [SUA_Open_Source_cFE 6 1_GSC-16232.pdf](SUA_Open_Source_cFE 6 1_GSC-16232.pdf)
